@@ -5,14 +5,12 @@ RUN apk --update add \
 	wget \
 	curl \
 	git \
-	php-curl \
-	php-pdo \
-	php-pdo_mysql \
-	php-mysqli \
-	php-openssl \
-	php-json \
-	php-phar \
-	php-dom && \
+	php5-curl \
+	php5-pdo \
+	php5-openssl \
+	php5-json \
+	php5-phar \
+	php5-dom && \
 	rm /var/cache/apk/*
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer 
