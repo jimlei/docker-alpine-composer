@@ -7,6 +7,8 @@ RUN apk --update add \
 	git \
 	php-curl \
 	php-pdo \
+	php-pdo_mysql \
+	php-mysqli \
 	php-openssl \
 	php-json \
 	php-phar \
