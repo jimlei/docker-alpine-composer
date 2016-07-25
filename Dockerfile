@@ -6,6 +6,7 @@ RUN apk --update add \
 	curl \
 	git \
 	php-curl \
+	php-pdo \
 	php-openssl \
 	php-json \
 	php-phar \
